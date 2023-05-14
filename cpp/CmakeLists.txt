@@ -1,0 +1,7 @@
+project(robotics)
+
+cmake_minimum_required(VERSION 3.0)
+
+find_package(Eigen REQUIRED)
+
+add_executable(test_map test/test_map.cpp)
